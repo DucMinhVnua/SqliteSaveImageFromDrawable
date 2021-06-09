@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="75dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="10dp"
+        android:text=' Khái niệm "người điều khiển giao thông" được hiểu như thế nào?'
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/CauHoi"/>
+
+    <RadioGroup
+        android:padding="5dp"
+        android:layout_weight="16"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+        <RadioButton
+            android:id="@+id/a"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Câu trả lời A" />
+        <RadioButton
+            android:id="@+id/b"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Câu trả lời B"/>
+        <RadioButton
+            android:id="@+id/c"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Câu trả lời C"/>
+        <RadioButton
+            android:id="@+id/d"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Câu trả lời D"/>
+
+
+    </RadioGroup>
+</LinearLayout>
